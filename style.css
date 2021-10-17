@@ -1,0 +1,336 @@
+#hobby{
+    font-size:30px;
+}
+#first{
+    position: relative;
+    overflow: hidden;
+    left:0;
+    right: 0;
+    top:0;
+    bottom:0;
+    color:#FFFFFF;
+    opacity:0.83;
+    background:linear-gradient(#ba6161 0%, #de1b1b 100%);
+    display:table;
+    width: 100%;
+    height:100%;
+    z-index: 9;
+}
+
+#di1{
+    display:table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+#bio{
+  padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 300px;
+}
+
+
+#img1{
+    width:400px;
+    height: 550px;
+    margin-bottom: 20px;
+    margin-left: 550px;
+    border-radius: 30px;
+}
+#next{
+    width: 200px;
+    height: 50px;
+    margin-left: 650px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#idols{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background:linear-gradient(#d5f0e9 0%, #07f5b5 100%);
+}
+#next2{
+    width:200px;
+    height: 50px;
+    border-radius: 20px;
+margin-left: 650px;
+     margin-top: 20px;
+    cursor: pointer;
+}
+#img2{
+    border-radius: 30px;
+      width:450px;
+    height: 550px;
+    margin-left:550px;
+}
+#myimg{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background:linear-gradient(#faf7cd 0% , #fcec05 100%);
+}
+#aims{
+    
+    
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background: linear-gradient(#edd395 0%, #f2ad0c 100%);
+}
+#img3{
+    margin-left: 550px;
+    width:400px;
+    height: 550px;
+    border-radius: 30px;
+    transition: 2 sec;
+}
+#img1, img2, img3:hover{
+    transform: scale(0.9)
+}
+#next3{
+    width:200px;
+    height: 50px;
+    border-radius: 20px;
+margin-left: 650px;
+     margin-top: 20px;
+    cursor: pointer;
+}
+ #next3:hover{
+    background-color: bisque;
+}
+#next2:hover{
+    background-color: tan;
+}
+#next:hover{
+    background-color: skyblue;
+}
+button{
+    font-family: cursive;
+    font-size: 30px;
+}
+#books{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+
+
+.menu{
+    font-family: fantasy;
+    list-style: none;
+    position: absolute;
+   top:30px;
+    
+    right:30px;
+    z-index: 10;
+    cursor:pointer;
+    padding-right: 30px;
+}
+.links{
+    float: left;
+    color:#fff;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+    
+}
+.links:hover{
+    background-color: blue;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#img1{
+   margin-top: 30px;
+    border-radius: 20px;
+}
+#apps{
+    width:100%;
+    height: 800px;
+    background-color: lightcoral;
+    padding-top:30px;
+}
+#games{
+    width: 100%;
+    height: 800px;
+    background-color:lightblue;
+    padding-top: 30px;
+}
+.line{
+    width:70px;
+    height:6px;
+    margin: 8px auto;
+    background-color: darkred;
+    
+}
+#imgg{
+    transition: transform .2s;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+#imgg:hover{
+    transform: scale(0.9);
+}
+#chat{
+    background-color: chocolate;
+    padding-top: 50px;
+  
+    width: 100%;
+    height: 800px;
+}
+#myw{
+    text-align: center;
+}
+#books{
+    margin-bottom: 100px;
+}
+#ab{
+font-size: 20px;
+
+}
+iframe{
+border-radius: 15px;
+}
+#vid{
+    padding-top: 30px;
+    background: linear-gradient(#886fa6 0% ,#7405fc 100%);
+    padding-bottom: 30px;
+    color:whitesmoke;
+
+}
+#myw{
+    background-color: beige;
+}
+#ins{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: burlywood;
+}
+#imght{
+    border-radius: 20px;
+    margin-right: 15px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 10px;
+     transition: transform .2s;
+    
+}
+#hover{
+    transition: transform .2s;
+    border-radius: 15px;
+}
+#hover:hover{
+    transform: scale(0.9);
+}
+#imght:hover{
+    transform: scale(0.9)
+}
+#mmm{
+    margin-left: 500px;
+    border-radius: 20px;
+     transition: transform .2s; 
+}
+#mmm:hover{
+    transform: scale(0.9);
+}
+#pic{
+    width: 500px;
+    height:700px;
+    margin-bottom: 10px;
+}
+#con{
+    background-color: darkgoldenrod;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+#mmmo{
+     transition: transform .2s;
+}
+#mmmo:hover{
+    transform: scale(0.9);
+}
+#m{
+    margin-left: 30px;
+    background-color: darkorange;
+}
+#id{
+    margin-left: 20px;
+    width: 300px;
+    height: 450px;
+    border-style: solid;
+    background-color: chartreuse;
+    border-radius: 30px;
+}
+#id2{
+    padding-left:100px; 
+}
+#aw{
+    background-color: lightcyan;
+}
+#mmmo{
+   margin-left: 600px;
+    border-radius: 20px;
+}
+#mmopopopopopopo{
+    font-size: 25px;
+    
+}
+#school{
+    background:linear-gradient(#ba6161 0%, #de1b1b 100%);
+}
+#are{
+    margin-left: 650px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+#aaa{
+    margin-left: 10px;
+}
+#sbp{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10px;
+}
+#sbimg{
+    margin-left: 450px;
+    border-radius: 20px;
+}
+#asho{
+    font-size: 30px;
+    color: white;
+    background:linear-gradient(#0313fc 0%, #7e84d9 100%);
+    
+}
+#smallbio{
+    background:linear-gradient(#a2debf 0%, #00ff7b 100%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#books{
+    background: linear-gradient(#ba99a0 0%, #e87691 100%);
+    padding-bottom: 30px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#iomp:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+#link{
+    background-color: lightcyan;
+    text-align: center;
+}
